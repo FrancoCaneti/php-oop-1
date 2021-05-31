@@ -39,8 +39,8 @@ $movie1 = new Movie('Star Wars', 'Fantascienza, Avventura, Azione', 'Lungometrag
 // var_dump($movie1);
 
 
-
-
+//istanza 2
+$movie2 = new Movie('Il gioco di Geri', 'Animazione', 'Cortometraggio','Pixar Animation Studios');
 
 
 
@@ -50,3 +50,8 @@ $movie1 = new Movie('Star Wars', 'Fantascienza, Avventura, Azione', 'Lungometrag
       '<h2> Genere: '. $movie1->genere . '</h2> ',
       '<h2> Categoria: '. $movie1->getCategoria() . '</h2> ',
       '<h2> Casa di Produzione: '. $movie1->casaProduzione . '</h2> ';
+
+      echo '<h1> Titolo del film: '. $movie2->titolo . '</h1> ',
+      '<h2> Genere: '. $movie2->genere . '</h2> ',
+      '<h2> Categoria: '. $movie2->getCategoria() . '</h2> ',
+      '<h2> Casa di Produzione: '. $movie2->casaProduzione . '</h2> ';
